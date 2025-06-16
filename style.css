@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top right, #ffefff, #d0f0ff);
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+#ribbon-container {
+  margin-top: 20px;
+}
+#ribbon {
+  width: 200px;
+  cursor: pointer;
+}
+#cat-cloud {
+  margin-top: 30px;
+}
+.cloud-text {
+  font-size: 24px;
+  color: #ff69b4;
+}
+.balloon {
+  width: 50px;
+  animation: float 4s infinite ease-in-out;
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-200px); }
+  100% { transform: translateY(0); }
+}
+#love-letter {
+  margin: 20px auto;
+  max-width: 500px;
+  background: #fff0f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px pink;
+}
+#angel-photo img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #ff69b4;
+}
+#comic img {
+  width: 150px;
+  margin: 10px;
+}
+.hidden {
+  display: none;
+}
